@@ -16,4 +16,4 @@ app.use('/api/goals', require('./routes/goalRoutes'));
 app.use('/api/users', require('./routes/userRoutes'));
 app.use(errorHandler);
 
-app.listen(10000, () => console.log(`server is up and running on port ${port}`));
+app.listen(10000, () => console.log(`server is up and running on port 10000`));
