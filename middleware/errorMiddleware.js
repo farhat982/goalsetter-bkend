@@ -4,7 +4,7 @@ const errorHandler = (err, req, res, next) => {
 
   res.json({
     message: err.message,
-    stack: stack: development === 'production' ? null : err.stack,
+    //stack: stack: development === 'production' ? null : err.stack,
   });
 };
 
